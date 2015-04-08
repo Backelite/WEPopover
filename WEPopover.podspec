@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
 
   s.description = 'Generic popover implementation for iOS with same API as the UIPopoverController for the iPad, but configurable with custom background and available for iPhone as well.'
 
-  s.ios.deployment_target = '4.3'
+  s.ios.deployment_target = '6.0'
 
   s.source_files = 'Classes/Popover/**/*.{c,m,h}'
   s.framework   = 'Foundation', 'UIKit'
-  s.requires_arc = false
+  s.requires_arc = true
 
 end
